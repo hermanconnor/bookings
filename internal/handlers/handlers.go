@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/hermanconnor/bookings/pkg/config"
-	"github.com/hermanconnor/bookings/pkg/models"
-	"github.com/hermanconnor/bookings/pkg/render"
+	"github.com/hermanconnor/bookings/internal/config"
+	"github.com/hermanconnor/bookings/internal/models"
+	"github.com/hermanconnor/bookings/internal/render"
 )
 
 // Repo the repository used by the handlers
